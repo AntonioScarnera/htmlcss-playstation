@@ -33,6 +33,20 @@ header{
     width: 80px;
     float: right;
 }
+.navbar{
+    width: 100%;
+}
+#navbar{
+    background-color: white;
+}
+#navbar ul{
+    margin-bottom: 0;
+}
+
+#navbar .access{
+    padding-left: 0;
+    padding-right: 2rem;
+}
 #navbar ul li{
     list-style-type: none;
     display: inline-block;
@@ -46,7 +60,8 @@ header{
 #jumbotron{
     background-color: black;
     height: 100vh;
-    margin-top: 90px;
+    margin-top: 80px;
+    z-index: 0;
 }
 
 
