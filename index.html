@@ -20,101 +20,111 @@
                 <img src="img/sony_logo.svg" class="img-fluid p-1" alt="sony_logo">
             </div>
         </section>
-        <section id="navbar">
-            <nav class="navbar navbar-light d-flex align-items-center">
-                <img src="img/play_logo.svg" class="justify-self-start">
-                <ul class="services justify-self-start">
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
-                            Giochi
-                         </a>
-                    </li>
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#hardware" aria-controls="hardware" aria-expanded="false" aria-label="Toggle navigation">
-                            Hardware
-                         </a>
-                    </li>
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#servizi" aria-controls="servizi" aria-expanded="false" aria-label="Toggle navigation">
-                            Servizi
-                         </a>
-                    </li>
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#novita" aria-controls="novita" aria-expanded="false" aria-label="Toggle navigation">
-                            Novità
-                         </a>
-                    </li>
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#acquisti" aria-controls="acquisti" aria-expanded="false" aria-label="Toggle navigation">
-                            Fai acquisti
-                         </a>
-                    </li>
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#supporto" aria-controls="supporto" aria-expanded="false" aria-label="Toggle navigation">
-                            Supporto
-                         </a>
-                    </li>
-                </ul>
-                <ul class="access d-flex align-items-center justify-self-end">
-                    <li  class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
-                            My Playstation
-                         </a>
-                    </li>
-                    <li  class="nav-item px-1">
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </li>
-                    <li class="align-self-center">
-                        <div class="input-group">
-                            <input type="search" class="form-control"style="width: 100px;" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </span>
-                          </div>
-                    </li>
-                </ul>
+        <section id="navbar" class="d-flex">
+            <div class="img-wrapper">
+                <img src="img/play_logo.svg" class="img-fluid">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="services">
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
+                                    Giochi
+                                 </a>
+                            </li>
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#hardware" aria-controls="hardware" aria-expanded="false" aria-label="Toggle navigation">
+                                    Hardware
+                                 </a>
+                            </li>
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#servizi" aria-controls="servizi" aria-expanded="false" aria-label="Toggle navigation">
+                                    Servizi
+                                 </a>
+                            </li>
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#novita" aria-controls="novita" aria-expanded="false" aria-label="Toggle navigation">
+                                    Novità
+                                 </a>
+                            </li>
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#acquisti" aria-controls="acquisti" aria-expanded="false" aria-label="Toggle navigation">
+                                    Fai acquisti
+                                 </a>
+                            </li>
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#supporto" aria-controls="supporto" aria-expanded="false" aria-label="Toggle navigation">
+                                    Supporto
+                                 </a>
+                            </li>
+                        </ul>
+                        <ul class="access">
+                            <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
+                                    My Playstation
+                                 </a>
+                            </li>
+                            <li  class="nav-item px-1">
+                                <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            </li>
+                            <li class="align-self-center">
+                                <div class="input-group">
+                                    <input type="search" class="form-control"style="width: 100px;" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
             </nav>
-            <div class="collapse" id="giochi">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <div class="collapse" id="hardware">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <div class="collapse" id="servizi">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <div class="collapse" id="novita">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <div class="collapse" id="acquisti">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <div class="collapse" id="supporto">
-                <div class="bg-white p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
         </section>
+        <div class="collapse" id="giochi">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <div class="collapse" id="hardware">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <div class="collapse" id="servizi">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <div class="collapse" id="novita">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <div class="collapse" id="acquisti">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <div class="collapse" id="supporto">
+            <div class="bg-white p-4">
+                <h5 class="text-dark h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
     </header>
     <!-- /HEADER -->
 
@@ -122,7 +132,20 @@
     <main>
         <!-- JUMBOTRON -->
         <section id="jumbotron">
-
+            <div class="container-fluid p-0 jumbo">
+                <div class="container text-white jumbotron">
+                    <div class="banner-logo pb-4">
+                        <img src="img/returnal-hero-banner-logo.png" class="img-fluid">
+                    </div>
+                    <h1 class="pb-4">
+                        Rompi il cerchio
+                    </h1>
+                    <div class="banner-txt pb-4">
+                        Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva PS5.
+                    </div>
+                    <button type="button" class="btn btn-danger rounded-pill">Acquista Ora</button>
+                </div>
+            </div>
         </section>
         <!-- /JUMBOTRON -->
 
@@ -134,7 +157,23 @@
 
         <!-- GAME BANNER -->
         <section id="game-banner">
-
+            <div class="container-fluid p-0 game-banner">
+                <div class="container text-white takes-two">
+                    <div class="banner-logo pb-4 ">
+                        <img src="img/it-takes-two-logo.png" class="img-fluid">
+                    </div>
+                    <div class="banner-txt pb-4">
+                        <h1>
+                            Un'avventura cooperativa selvaggia ti attende
+                        </h1>
+                    
+                        <p class="pt-4">
+                            Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolgono il tuo genere.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-danger rounded-pill">Acquista Ora</button>
+                </div>
+            </div>
         </section>
         <!-- /GAME BANNER -->
 
@@ -158,7 +197,22 @@
 
         <!-- PS PLUS -->
         <section id="ps-plus">
-
+            <div class="container-fluid p-0 bg-grey">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="ps-banner-txt">
+                            <div class="ps-banner-logo">
+                                <img src="img/ps-plus-logo.png" class="img-fluid pb-4">
+                            </div>
+                            <p class="pb-4">Migliora la tua esperienza Playstation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                            <button type="button" class="btn btn-ps-plus rounded-pill">Esplora Playstatio Plus</button>
+                        </div>
+                        <div class="ps-banner-img">
+                            <img src="img/ps-plus-april-monthly-games-featured-image-block.png" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- /PS PLUS -->
 
@@ -170,7 +224,22 @@
 
         <!-- PS NOW -->
         <section id="ps-now">
-
+            <div class="container-fluid p-0 bg-blue">
+                <div class="container text-white">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="ps-banner-txt">
+                            <div class="ps-banner-logo">
+                                <img src="img/ps-now-logo-two-column.png" class="img-fluid pb-4">
+                            </div>
+                            <p class="pb-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 E PS2 SU PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                            <button type="button" class="btn btn-ps-now rounded-pill">Esplora Playstatio Now</button>
+                        </div>
+                        <div class="ps-banner-img">
+                            <img src="img/ps-now-april-featured-image-block.png" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- /PS NOW -->
 
