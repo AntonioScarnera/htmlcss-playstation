@@ -15,11 +15,38 @@
     
     <!-- HEADER -->
     <header>
-        <section id="brand-logo">
-
+        <section id="brand-logo" class="clearfix">
+            <div class="brand_logo">
+                <img src="img/sony_logo.svg" class="img-fluid p-1" alt="sony_logo">
+            </div>
         </section>
         <section id="navbar">
-
+            <nav class="navbar navbar-light">
+                <ul>
+                    <li  class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
+                            Giochi
+                         </a>
+                    </li>
+                    <li  class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#Hardware" aria-controls="Hardware" aria-expanded="false" aria-label="Toggle navigation">
+                            Hardware
+                         </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="collapse" id="giochi">
+                <div class="bg-white p-4">
+                    <h5 class="text-dark h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <div class="collapse" id="Hardware">
+                <div class="bg-white p-4">
+                    <h5 class="text-dark h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
         </section>
     </header>
     <!-- /HEADER -->
@@ -91,7 +118,7 @@
 
     <!-- FOOTER -->
     <footer>
-        
+
     </footer>
     <!-- /FOOTER -->
 

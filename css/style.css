@@ -1,3 +1,6 @@
+
+
+/* General classes */
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +8,58 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Header classes */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 100px;
+}
+#brand-logo{
+    background-color: var(--black);
+    width: 100%;
+}
+.brand_logo{
+    width: 80px;
+    float: right;
+}
+#navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+}
+#navbar ul li a{
+    color: var(--black);
+}
+
+
+#jumbotron{
+    background-color: black;
+    height: 100vh;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+/* Variabili */
+
+
+:root{
+    --black: #000;
 }
