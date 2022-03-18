@@ -88,7 +88,7 @@ header{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 600px;
 }
 .banner-logo{
     width: 200px;
@@ -98,21 +98,54 @@ header{
     text-align: left;
 }
 
+/* sect 2 */
+
+.rounded {
+    border-radius: 1.25rem!important;
+}
+.img-thumbnail{
+    background-color: #fff;
+    border: 0px solid #002d5a;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.img-thumbnail:hover {
+    padding: 2px;
+    background-color: #fff;
+    border: 2px solid #002d5a;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    transform: translate(0, -10%);
+    transition: all ease 0.5s;
+}
+.ps5-accessory{
+    opacity: 0.7;
+}
+.ps5-accessory:hover{
+    border-bottom: 1px solid var(--bs-primary);
+    opacity: 1;
+}
+
+
+
+
+
 /* sect 3 */
 .game-banner{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
-    height: 65vh;
 }
 .takes-two{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     height: 100%;
-    padding-bottom: 50px;
- 
+    width: 100%;
 }
 
 
@@ -124,7 +157,7 @@ header{
     width: 700px;
 }
 .ps-banner-logo{
-    width: 300px;
+    width: 30vw;
 }
 .ps-banner-txt{
     width: 700px;
@@ -154,9 +187,30 @@ header{
 
 
 
+
+
+
+@media screen and (max-width: 576px) {
+    .ps5-accessory p{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
 /* Variabili */
 
 
 :root{
     --black: #000;
+}
+.primary{
+    color: var(--bs-primary);
+}
+.txt-grey{
+    color: var(--bs-gray);
 }
