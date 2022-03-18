@@ -20,75 +20,472 @@
                 <img src="img/sony_logo.svg" class="img-fluid p-1" alt="sony_logo">
             </div>
         </section>
-        <section id="navbar" class="d-flex">
-            <div class="img-wrapper">
-                <img src="img/play_logo.svg" class="img-fluid">
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <div class="img-wrapper">
+                        <img src="img/play_logo.svg" class="img-fluid">
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                        <ul class="services">
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
-                                    Giochi
-                                 </a>
+                    <div class="d-flex justify-content-between w-100">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Giochi
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="my_dropdown-button text-center">
+                                    <li>
+                                        <a class="my_dropdown-item mx-3">
+                                          <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                          PlayStation 3
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 4
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 5
+                                        </a>
+                                    </li> 
+                                </ul>
+    
+                                <hr class="dropdown-divider">
+                                
+                                <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <a class="my_dropdown-item" href="#">
+                                                Link giochi
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <a class="my_dropdown-item" href="#">
+                                                Link giochi
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <a class="my_dropdown-item" href="#">
+                                                Link giochi
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                          </li>
+                          
+                          
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <ul class="my_dropdown-button text-center">
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 3
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 4
+                                          </a>
+                                      </li> 
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 5
+                                          </a>
+                                      </li> 
+                                  </ul>
+      
+                                  <hr class="dropdown-divider">
+                                  
+                                  <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link Hardware
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link Hardware
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link Hardware
+                                              </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
                             </li>
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#hardware" aria-controls="hardware" aria-expanded="false" aria-label="Toggle navigation">
-                                    Hardware
-                                 </a>
+                            
+                            
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <ul class="my_dropdown-button text-center">
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 3
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 4
+                                          </a>
+                                      </li> 
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 5
+                                          </a>
+                                      </li> 
+                                  </ul>
+      
+                                  <hr class="dropdown-divider">
+                                  
+                                  <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link servizi
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link servizi
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link servizi
+                                              </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
                             </li>
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#servizi" aria-controls="servizi" aria-expanded="false" aria-label="Toggle navigation">
-                                    Servizi
-                                 </a>
+                            
+                            
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Novità
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <ul class="my_dropdown-button text-center">
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 3
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 4
+                                          </a>
+                                      </li> 
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 5
+                                          </a>
+                                      </li> 
+                                  </ul>
+      
+                                  <hr class="dropdown-divider">
+                                  
+                                  <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link novità
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link novità
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link novità
+                                              </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
                             </li>
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#novita" aria-controls="novita" aria-expanded="false" aria-label="Toggle navigation">
-                                    Novità
-                                 </a>
+                            
+                            
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Fai acquisti
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <ul class="my_dropdown-button text-center">
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 3
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 4
+                                          </a>
+                                      </li> 
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 5
+                                          </a>
+                                      </li> 
+                                  </ul>
+      
+                                  <hr class="dropdown-divider">
+                                  
+                                  <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link acquisti
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link acquisti
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link acquisti
+                                              </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
                             </li>
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#acquisti" aria-controls="acquisti" aria-expanded="false" aria-label="Toggle navigation">
-                                    Fai acquisti
-                                 </a>
+                            
+                            
+                            </ul>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Supporto
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <ul class="my_dropdown-button text-center">
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                            <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                            PlayStation 3
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 4
+                                          </a>
+                                      </li> 
+                                      <li>
+                                          <a class="my_dropdown-item mx-3">
+                                              <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                              PlayStation 5
+                                          </a>
+                                      </li> 
+                                  </ul>
+      
+                                  <hr class="dropdown-divider">
+                                  
+                                  <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link supporto
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link supporto
+                                              </a>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa-solid fa-circle"></i>
+                                              <a class="my_dropdown-item" href="#">
+                                                  Link supporto
+                                              </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
                             </li>
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#supporto" aria-controls="supporto" aria-expanded="false" aria-label="Toggle navigation">
-                                    Supporto
-                                 </a>
-                            </li>
-                        </ul>
-                        <ul class="access">
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#giochi" aria-controls="giochi" aria-expanded="false" aria-label="Toggle navigation">
-                                    My Playstation
-                                 </a>
-                            </li>
-                            <li  class="nav-item px-1">
-                                <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
-                            </li>
-                            <li class="align-self-center">
-                                <div class="input-group">
-                                    <input type="search" class="form-control"style="width: 100px;" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
-                                    <span class="input-group-text" id="basic-addon2">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </span>
-                                  </div>
-                            </li>
-                        </ul>
+                            
+                            
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <form class="d-flex gap-2">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          My PlayStation
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <ul class="my_dropdown-button text-center">
+                                                <li>
+                                                    <a class="my_dropdown-item mx-3">
+                                                      <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                                      PlayStation 3
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="my_dropdown-item mx-3">
+                                                        <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                                        PlayStation 4
+                                                    </a>
+                                                </li> 
+                                                <li>
+                                                    <a class="my_dropdown-item mx-3">
+                                                        <img src="img/play-menu-ico.png" class="img-fluid"><br>
+                                                        PlayStation 5
+                                                    </a>
+                                                </li> 
+                                            </ul>
+                
+                                            <hr class="dropdown-divider">
+                                            
+                                            <ul class="my_dropdown-links d-flex justify-content-center align-items-center gap-2">
+                                                <li>
+                                                    <div class="d-flex align-items-center">
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a class="my_dropdown-item" href="#">
+                                                            Link My PlayStation
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex align-items-center">
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a class="my_dropdown-item" href="#">
+                                                            Link My PlayStation
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="d-flex align-items-center">
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a class="my_dropdown-item" href="#">
+                                                            Link My PlayStation
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                      </li>
+                                    <li>
+                                        <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                                    </li>
+                                    <li>
+                                        <div class="input-group">
+                                            <input type="search" class="form-control"style="width: 100px;" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                                            <span class="input-group-text" role="button" id="basic-addon2">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
                     </div>
                     
                 </div>
-            </nav>
+              </nav>
         </section>
+       
         <div class="collapse" id="giochi">
             <div class="bg-white p-4">
-                <h5 class="text-dark h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
+                <div class="row justify-content-center">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>
             </div>
             <div class="bg-white p-4">
                 <h5 class="text-dark h4">Collapsed content</h5>

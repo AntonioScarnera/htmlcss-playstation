@@ -33,35 +33,66 @@ header{
     width: 80px;
     float: right;
 }
-.navbar{
-    width: 100%;
-}
-#navbar{
-    background-color: white;
-}
-#navbar ul{
-    margin-bottom: 0;
-}
-#navbar .services{ 
-    padding: 0;
-}
-#navbar .access{
-    padding-left: 0;
-    padding-right: 5px;
-}
-#navbar ul li{
-    list-style-type: none;
-    display: inline-block;
-    cursor: pointer;
-}
-#navbar ul li a{
-    color: var(--black);
-    padding: 0;
-}
-.navbar-expand-lg .navbar-collapse {
-    justify-content: space-between;
+
+
+
+.dropdown{
+    position: static;
+} 
+.dropdown-menu[data-bs-popper] {
+    left: 0;
+    right: 0;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
 }
 
+
+ul.my_dropdown-links li{
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+}
+.my_dropdown-links li a{
+    line-height: 30px;
+    padding-left: 5px;
+    width: auto;
+}
+ul.my_dropdown-links li i{
+    font-size: 7px;
+    line-height: 5px;
+    color: var(--bs-primary);
+}
+ul.my_dropdown-button li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.my_dropdown-item {
+    display: inline-block;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: white;
+    border: 0;
+    width: 100px;
+    cursor: pointer;
+}
+.navbar .dropdown-toggle::after{
+    display: inline-block;
+    font-size: 0.7em;
+    font-family: "Font Awesome 6 Free";
+    content: '\f078';
+    font-weight: 900;
+    border: 0;
+    vertical-align: middle;
+}
+.navbar .dropdown-toggle.show::after{
+    content: '\f077';
+}
 
 
 
@@ -87,7 +118,7 @@ header{
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position:top;
     height: 600px;
 }
 .banner-logo{
@@ -194,6 +225,14 @@ header{
     .ps5-accessory p{
         display: none;
     }
+}
+@media screen and (max-width: 991.98px) {
+    #navbar ul li{
+        list-style-type: none;
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+    } 
 }
 
 
