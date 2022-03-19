@@ -129,6 +129,7 @@ ul.my_dropdown-button li{
     text-align: left;
 }
 
+
 /* sect 2 */
 
 .rounded {
@@ -180,6 +181,35 @@ ul.my_dropdown-button li{
 }
 
 
+/* sect 4 */
+#new-release{
+    background-color: #212529;
+    color: white;
+    margin-top: -1px;
+}
+.img-thumbnail-release{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.img-thumbnail-release:hover {
+    transform: translate(0, -10%);
+    transition: all ease 0.5s;
+}
+
+
+/* sect 5 */
+.card{
+    border: 0;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
 /* sect 6 */
 .bg-grey{
     background-color: var(--bs-gray-500);
@@ -202,6 +232,13 @@ ul.my_dropdown-button li{
     border-color: var(--bs-gray-300);
 }
 
+/* sect 7 */
+.ps4-item:hover{
+    cursor: pointer;
+    transform: translate(0, -5%);
+    transition: all ease 0.5s;
+}
+
 
 /* sect 8 */
 
@@ -214,11 +251,26 @@ ul.my_dropdown-button li{
     border-color: var(--bs-gray-200);
 }
 
-
-
-
-
-
+/* footer */
+footer{
+    background-color: #00439C;
+}
+.ps-simple-logo{
+    width: 150px;
+    filter: grayscale(100%) brightness(10000%);
+}
+footer ul li{
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+.sie-logo{
+    width: 150px;
+}
+.footer-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -234,8 +286,12 @@ ul.my_dropdown-button li{
         padding: 10px;
     } 
 }
-
-
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0;
+    }
+}
 
 
 
@@ -251,5 +307,5 @@ ul.my_dropdown-button li{
     color: var(--bs-primary);
 }
 .txt-grey{
-    color: var(--bs-gray);
+    color: var(--bs-gray-600);
 }
