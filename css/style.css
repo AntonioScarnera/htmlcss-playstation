@@ -93,7 +93,13 @@ ul.my_dropdown-button li{
 .navbar .dropdown-toggle.show::after{
     content: '\f077';
 }
-
+.my-overflow{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.drop-cont{
+    max-height: 500px;
+}
 
 
 
